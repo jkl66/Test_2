@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type=text/css>
+    <title>Document</title>
+</head>
+<body>
+    <div class="chart">
+        <button class="trigger">Show chart</button>
+    </div>
+    <!-- POPUP-->
+    
+    <div class="modal ">
+        <div class="modal-content ">
+                <span class="close-button">&times;</span>
+           <img src="images/chart.png" alt="chart">
+        </div>
+    </div>
+     
+        <!--aACCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!-->
+
+
+
+<table class="tbwrapper">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Last</th>
+            <th>First</th>
+            <th>Username</th>
+            <th>Phone</th>
+            <th>Location</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="wiew">
+            <td class="icon"><div class="iduser"></div></td>
+            <td class="last"></td>
+            <td class="first"></td>
+            <td class="username"></td>
+            <td class="phone"></td>
+            <td class="location"></td>
+            <td><button class="accordion"><img class="plus" src="images/plus.png"></button></td>
+        </tr>
+        <tr class="fold" onclick="$('.plus').hide('.fold')">
+                <td colspan="7">
+                        <div class="fold-content">
+                          <h3>ID</h3>
+                          <table>
+                            <thead>
+                              <tr>
+                                <th>Name Gender icon</th><th></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="username">Username:</td>
+                                <td class="addres">Addres:</td>
+                                <td class="birthday">Birthday:</td>
+                              </tr>
+                              <tr>
+                                <td class="registered">Registered:</td>
+                                <td class="city">City:</td>
+                                <td class="phone">Phone:</td>
+                              </tr>
+                              <tr>
+                                <td class="email">Email:</td>
+                                <td class="zipcode">Zip code:</td>
+                                <td class="cell">Cell:</td>
+                              </tr>
+        </tr>
+  
+            <tr class="wiew">
+                <td class="icon"><div class="iduser"></div></td>
+                <td class="last"></td>
+                <td class="first"></td>
+                <td class="username"></td>
+                <td class="phone"></td>
+                <td class="location"></td>
+                <td><button class="accordion"><img class="plus" src="images/plus.png" ></button></td>
+            </tr>
+            <tr class="fold">
+                    <td colspan="7">
+                            <div class="fold-content">
+                              <h3>ID</h3>
+                              <table>
+                                <thead>
+                                  <tr>
+                                    <th>Name Gender icon</th><th></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="username">Username:</td>
+                                    <td class="addres">Addres:</td>
+                                    <td class="birthday">Birthday:</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="registered">Registered:</td>
+                                    <td class="city">City:</td>
+                                    <td class="phone">Phone:</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="email">Email:</td>
+                                    <td class="zipcode">Zip code:</td>
+                                    <td class="cell">Cell:</td>
+            </tr>
+            </tbody>
+</table>
+</body>
+<script src="script.js" defer></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+</html>
+
+
